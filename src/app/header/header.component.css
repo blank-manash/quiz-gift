@@ -1,0 +1,6 @@
+mat-toolbar {
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  box-shadow: 20px;
+}

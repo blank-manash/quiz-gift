@@ -1,0 +1,23 @@
+<div class="card-outer">
+  <div class="card mat-elevation-z8" data-aos="fade-up" data-aos-once="true">
+    <div class="card-header card-title" matRipple>Question</div>
+    <div class="card-body">
+      <p class="card-text">{{ this.ques }}</p>
+    </div>
+    <div>
+      <mat-selection-list [multiple]="false">
+        <mat-list-option
+          class="mat-primary"
+          *ngFor="let i of [0, 1 ,2, 3]"
+          (click)="openSnackBar(i)"
+        >
+          <div class="number-class">
+            <span>{{i+1}}.</span>
+            <p>{{ this.configs[i].option }}</p>
+          </div>
+          <mat-divider></mat-divider>
+        </mat-list-option>
+      </mat-selection-list>
+    </div>
+  </div>
+</div>

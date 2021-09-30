@@ -1,0 +1,65 @@
+:host {
+  display: flex;
+  justify-content: center;
+}
+
+.card-outer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 1.5rem 2rem 1rem 2rem;
+
+}
+.card-header {
+  text-align: center;
+  font-weight: bold;
+  color: blanchedalmond;
+  background-color: black;
+}
+
+.card-body .card-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+  text-align: center;
+  margin : auto 2rem;
+}
+
+
+.mat-list-option {
+  /* border-top: 0.25px solid #4B3869; */
+  text-align: center;
+  justify-content: center;
+  background-color: #F0D9FF;
+}
+
+.number-class {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Indie Flower', cursive;
+  font-size: x-large;
+
+}
+.number-class p {
+  margin: auto;
+}
+
+
+
+.mat-snack-bar-container {
+  width: 100%;
+}
+
+.mat-list-base {
+  padding-top: 0;
+}
+
+.fade-in-bottom {
+	-webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
