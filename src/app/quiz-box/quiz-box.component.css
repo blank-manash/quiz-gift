@@ -14,7 +14,7 @@
   justify-content: center;
   width: 80%;
   margin: 1.5rem 2rem 1rem 2rem;
-
+  border: 0;
 }
 .card-header {
   text-align: center;
@@ -24,32 +24,30 @@
 }
 
 .card-body .card-text {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 2rem;
   font-size: x-large;
   text-align: center;
-  margin : auto 2rem;
+  margin: auto 2rem;
 }
-
 
 .mat-list-option {
   /* border-top: 0.25px solid #4B3869; */
   text-align: center;
   justify-content: center;
-  background-color: #F0D9FF;
+  background-color: #f0d9ff;
 }
 
 .number-class {
   display: flex;
   justify-content: space-between;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   font-size: x-large;
-
+  line-height: 1.25rem;
 }
 .number-class p {
   margin: auto;
 }
-
-
 
 .mat-snack-bar-container {
   width: 100%;
@@ -60,6 +58,7 @@
 }
 
 .fade-in-bottom {
-	-webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }

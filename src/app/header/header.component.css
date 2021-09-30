@@ -2,5 +2,8 @@ mat-toolbar {
   justify-content: center;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
+  color: beige;
   box-shadow: 20px;
+  /* background: rgb(60,2,65);
+  background: radial-gradient(circle, rgba(60,2,65,1) 0%, rgba(181,3,198,1) 52%, rgba(84,0,87,1) 100%); */
 }

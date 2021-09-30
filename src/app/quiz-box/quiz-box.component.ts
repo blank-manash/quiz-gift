@@ -21,19 +21,19 @@ export class QuizBoxComponent implements OnInit {
       option: 'Good',
       msg: 'I Love You',
       action: 'Fun',
-      className: 'green-snack-bar',
+      className: 'blue-snack-bar',
     },
     {
       option: 'Good',
       msg: 'I Love You',
       action: 'Fun',
-      className: 'green-snack-bar',
+      className: 'purple-snack-bar',
     },
     {
       option: 'Good',
       msg: 'I Love You',
       action: 'Fun',
-      className: 'green-snack-bar',
+      className: 'red-snack-bar',
     }
   ];
   show: boolean = false;
